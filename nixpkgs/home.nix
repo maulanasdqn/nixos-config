@@ -11,6 +11,8 @@
    home.homeDirectory = "/home/ms";
    home.stateVersion = "21.11";
    programs.home-manager.enable = true;
+   programs.direnv.enable = true;
+   programs.direnv.nix-direnv.enable = true;
    programs.vscode = {
       enable = true;
    };

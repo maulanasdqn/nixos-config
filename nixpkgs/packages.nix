@@ -15,6 +15,7 @@
     git-crypt
     dnsutils
     whois
+    postman
 
     # Files
     zstd

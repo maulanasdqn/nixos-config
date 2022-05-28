@@ -3,7 +3,7 @@
 {
   services.xserver = {
     enable = true;
-    displayManager.lightdm.enable = true;
+    displayManager.startx.enable = true;
     windowManager.dwm.enable = true;
     layout = "us";
     xkbOptions = "eurosign:e";
