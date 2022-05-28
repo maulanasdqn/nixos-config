@@ -32,6 +32,7 @@
     pavucontrol
     qjackctl
     obs-studio
+    vlc
 
     # Overview
     htop
