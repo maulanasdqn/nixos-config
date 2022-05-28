@@ -15,6 +15,7 @@
            ll = "ls -l";
            c = "clear";
            update = "sudo nixos-rebuild switch";
+           build = "sudo nixos-rebuild switch -p nix --flake ~/.config/nixos/#beast";
          };
          history = {
            size = 10000;

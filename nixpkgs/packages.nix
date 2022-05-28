@@ -8,6 +8,9 @@
     xsv
     fd
 
+    #Office
+    libreoffice
+
     # Development
     neovim
     tmux
@@ -26,6 +29,9 @@
     # Media
     youtube-dl
     imagemagick
+    pavucontrol
+    qjackctl
+    obs-studio
 
     # Overview
     htop
