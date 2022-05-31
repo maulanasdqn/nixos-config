@@ -46,6 +46,9 @@
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
 
+  # Enable GVFS
+  services.gvfs.enable = true;
+
   # Set Fonts on Terminal
   console = {
      font = "FiraCode Nerd Font Mono";
