@@ -13,6 +13,7 @@
      unzip
      zip
      unrar
+     firefox
 
      # WM Dependencies
      dmenu
@@ -22,4 +23,5 @@
      flameshot
      networkmanager
   ];
+  programs.browserpass.enable = true;
 }

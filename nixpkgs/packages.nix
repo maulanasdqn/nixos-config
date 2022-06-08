@@ -11,6 +11,9 @@
     #Office
     libreoffice
 
+    #Games
+    minecraft
+
     # Development
     neovim
     tmux
@@ -33,6 +36,7 @@
     qjackctl
     obs-studio
     vlc
+    anydesk
 
     # Overview
     htop
@@ -46,5 +50,6 @@
     lolcat
     lsd
     sl
+    gnomeExtensions.caffeine
   ];
 }
