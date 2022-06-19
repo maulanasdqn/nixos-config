@@ -37,6 +37,7 @@
     obs-studio
     vlc
     anydesk
+    inkscape
 
     # Overview
     htop
