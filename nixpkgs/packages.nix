@@ -38,6 +38,7 @@
     vlc
     anydesk
     inkscape
+    gimp
 
     # Overview
     htop

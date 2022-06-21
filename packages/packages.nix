@@ -13,15 +13,7 @@
      unzip
      zip
      unrar
-     firefox
-
-     # WM Dependencies
-     dmenu
-     alacritty
-     nitrogen
-     pcmanfm
-     flameshot
-     networkmanager
+     gnomeExtensions.gsconnect
   ];
   programs.browserpass.enable = true;
 }
