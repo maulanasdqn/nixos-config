@@ -1,17 +1,12 @@
 { config, pkgs, ... }:
 {
     home.packages = with pkgs; [
-    # Rust CLI Tools! I love rust.
     exa
     bat
     tokei
     xsv
     fd
-
-    #Office
     libreoffice
-
-    # Development
     neovim
     tmux
     jq
@@ -19,32 +14,28 @@
     dnsutils
     whois
     postman
-
-    # Files
     zstd
     restic
     brig
     ipfs
-
-    # Media
     youtube-dl
     imagemagick
     pavucontrol
     qjackctl
     obs-studio
     vlc
-
-    # Overview
     htop
     wtf
     lazygit
     neofetch
-
-    # Jokes
+    picom-next
+    google-chrome
     fortune
     figlet
     lolcat
     lsd
     sl
+    zig
+    alsa-utils
   ];
 }
