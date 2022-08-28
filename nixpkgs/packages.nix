@@ -29,7 +29,6 @@
     lazygit
     neofetch
     picom-next
-    google-chrome
     fortune
     figlet
     lolcat
@@ -37,5 +36,16 @@
     sl
     zig
     alsa-utils
+    python3
+    inkscape
+    zoom-us
+    nodejs-16_x
+    nodePackages.yarn
+    google-chrome
+    microsoft-edge
+    firefox
+    kdenlive
+    slack
+    bun
   ];
 }
