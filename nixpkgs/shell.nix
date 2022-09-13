@@ -16,7 +16,7 @@
            c = "clear";
            update = "sudo nixos-rebuild switch";
            build = "sudo nixos-rebuild switch -p nix --flake ~/.config/nixos/#beast";
-           clean = "sudo nix-collect-garbage -d"
+           clean = "sudo nix-collect-garbage -d";
          };
          history = {
            size = 10000;
