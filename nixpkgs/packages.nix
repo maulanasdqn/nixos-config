@@ -41,11 +41,13 @@
     zoom-us
     nodejs-16_x
     nodePackages.yarn
+    nodePackages.typescript
+    nodePackages.typescript-language-server
     google-chrome
     microsoft-edge
+    brave
     firefox
     kdenlive
     slack
-    bun
   ];
 }
