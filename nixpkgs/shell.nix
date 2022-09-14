@@ -17,6 +17,10 @@
            update = "sudo nixos-rebuild switch";
            build = "sudo nixos-rebuild switch -p nix --flake ~/.config/nixos/#beast";
            clean = "sudo nix-collect-garbage -d";
+           vim = "nvim";
+           gch = "git checkout";
+           gc = "git commit";
+           ga = "git add";
          };
          history = {
            size = 10000;
