@@ -13,6 +13,7 @@
      unzip
      zip
      unrar
+     gnome.gnome-terminal
 
      # WM Dependencies
      dmenu

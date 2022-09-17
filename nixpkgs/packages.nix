@@ -50,5 +50,6 @@
     kdenlive
     slack
     spotify
+    teams
   ];
 }
