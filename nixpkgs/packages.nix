@@ -28,7 +28,6 @@
     wtf
     lazygit
     neofetch
-    picom-next
     fortune
     figlet
     lolcat
@@ -51,5 +50,11 @@
     slack
     spotify
     teams
+    gnome.gnome-tweaks
+    lapce
+    eid-mw
+    dart
+    flutter
+    appimage-run
   ];
 }

@@ -7,5 +7,6 @@
     devmon.enable = true;
     printing.enable = true;
     getty.autologinUser = "ms";
+    gnome.core-utilities.enable = false;
   };
 }

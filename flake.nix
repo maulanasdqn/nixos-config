@@ -34,19 +34,6 @@
               home-manager.users.ms = {config, pkgs, lib, ...}: {
                 imports = [
                   ./nixpkgs/home.nix
-                  android-nixpkgs.hmModule
-                   {
-                     inherit config lib pkgs;
-                     android-sdk.enable = true;
-                     android-sdk.path = "${config.home.homeDirectory}/.android/sdk";
-                     android-sdk.packages = sdk: with sdk; [
-                       build-tools-31-0-0
-                       cmdline-tools-latest
-                       emulator
-                       platforms-android-31
-                       sources-android-31
-                     ];
-                   }
                 ];
               };
             }
