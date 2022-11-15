@@ -60,8 +60,9 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+static const char *roficmd[]  = { "rofi","-show", "run", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *flamecmd[]  = { "flameshot gui", NULL };
+static const char *flamecmd[]  = { "flameshot", "gui", NULL };
 static const char *volumedown[] = { "amixer", "-q", "set", "Master", "2%-", "unmute", NULL };
 static const char *volumeup[]   = { "amixer", "-q", "set", "Master", "2%+", "unmute", NULL };
 static const char *mute[]       = { "amixer", "-q", "set", "Master", "toggle", NULL };
@@ -71,7 +72,7 @@ static const char *touchpad[]   = { "touchpad-toggle", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
+	{ MODKEY,                       XK_d,      spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
   { 0,                            XK_Print,  spawn,          {.v = flamecmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },

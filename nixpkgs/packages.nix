@@ -1,60 +1,15 @@
 { config, pkgs, ... }:
 {
     home.packages = with pkgs; [
-    exa
-    bat
-    tokei
-    xsv
-    fd
-    libreoffice
-    neovim
-    tmux
-    jq
-    git-crypt
-    dnsutils
-    whois
-    postman
-    zstd
-    restic
-    brig
-    ipfs
-    youtube-dl
-    imagemagick
-    pavucontrol
-    qjackctl
-    obs-studio
-    vlc
-    htop
-    wtf
-    lazygit
-    neofetch
-    fortune
-    figlet
-    lolcat
-    lsd
-    sl
-    zig
-    alsa-utils
-    python3
-    inkscape
-    zoom-us
-    nodejs-16_x
-    nodePackages.yarn
+    google-chrome flameshot zig
+    fd tmux jq git-crypt nitrogen
+    postman neofetch lazygit rofi
+    slack alsa-utils python3
+    nodejs neovim ripgrep
+    nodePackages.yarn picom-next
     nodePackages.typescript
     nodePackages.typescript-language-server
-    google-chrome
-    microsoft-edge
-    brave
-    firefox
-    kdenlive
-    slack
-    spotify
-    teams
-    gnome.gnome-tweaks
-    lapce
-    eid-mw
-    dart
-    flutter
-    appimage-run
+    nodePackages.live-server
+    nodePackages.prettier
   ];
 }

@@ -3,8 +3,8 @@
   imports = [
     ./packages.nix
     ./shell.nix
-    ./terminal.nix
     ./git.nix
+    ./terminal.nix
   ];
 
    home.username = "ms";
@@ -13,7 +13,5 @@
    programs.home-manager.enable = true;
    programs.direnv.enable = true;
    programs.direnv.nix-direnv.enable = true;
-   programs.vscode = {
-      enable = true;
-   };
+   programs.vscode.enable = true;
 }

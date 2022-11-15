@@ -3,11 +3,10 @@
 {
   services.xserver = {
     enable = true;
-    displayManager.gdm.enable = true;
-    #windowManager.dwm.enable = true;
-    desktopManager.gnome.enable = true;
+    displayManager.startx.enable = true;
+    windowManager.dwm.enable = true;
     layout = "us";
-    xkbOptions = "eurosign:e";
+    xkbOptions = "caps:swapescape";
     libinput = { 
       enable = true;
       touchpad = {
