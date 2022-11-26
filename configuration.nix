@@ -25,6 +25,7 @@
     overlays = [
       (final: prev: {
         dwm = prev.dwm.overrideAttrs (old: { src = ./dwm;});
+        slstatus = prev.slstatus.overrideAttrs (old: { src = ./slstatus;});
       })
     ];
   };
@@ -62,9 +63,16 @@
      keyMap = "us";
   };
 
-  # Enable Flakes
+  # Enable Flakes and Binary Cache
   nix = {
     package = pkgs.nixFlakes;
+    settings = {
+      substituters = [
+        "https://nix-community.cachix.org"
+        "https://cache.nixos.org/"
+        "https://cache.komunix.org/"
+      ];
+    };
     extraOptions = ''
       experimental-features = nix-command flakes
     '';

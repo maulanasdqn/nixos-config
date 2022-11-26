@@ -3,6 +3,6 @@
 {
  users.users.ms = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "docker" "libvirtd" "networkmanager" ];
+    extraGroups = [ "wheel" "docker" "libvirtd" "networkmanager" "plugdev" ];
  };
 }

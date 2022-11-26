@@ -13,19 +13,17 @@
          };
          initExtra = ''
            export PATH=~/.npm-packages/bin:$PATH
+           export PATH=~/.grader/bin:$PATH
            export NODE_PATH=~/.npm-packages/lib/node_modules
          '';
          shellAliases = {
-           ll = "ls -l";
-           c = "clear";
            update = "sudo nixos-rebuild switch";
            build = "sudo nixos-rebuild switch -p nix --flake ~/.config/nixos/#beast";
            clean = "sudo nix-collect-garbage -d";
-           vim = "nvim";
+           ll = "ls -l";
+           c = "clear";
            v = "nvim";
-           gch = "git checkout";
-           gc = "git commit";
-           ga = "git add";
+           t = "tmux";
          };
          history = {
            size = 10000;
