@@ -59,7 +59,7 @@
 
   # Set Fonts on Terminal
   console = {
-     font = "FiraCode Nerd Font Mono";
+     font = "Hack Nerd Font Mono";
      keyMap = "us";
   };
 

@@ -11,11 +11,6 @@
        plugins = [ "git" ];
        theme = "awesomepanda";
      };
-     shellAliases = {
-       ll = "ls -l";
-       c = "clear";
-       update = "sudo nixos-rebuild switch";
-     };
    };
   users.defaultUserShell = pkgs.zsh;
 }

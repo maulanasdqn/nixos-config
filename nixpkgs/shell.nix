@@ -15,12 +15,15 @@
            export PATH=~/.npm-packages/bin:$PATH
            export PATH=~/.grader/bin:$PATH
            export NODE_PATH=~/.npm-packages/lib/node_modules
+           source ~/.config/z/z.sh
          '';
          shellAliases = {
-           update = "sudo nixos-rebuild switch";
+           update = "sudo nix flake update ~/.config/nixos";
            build = "sudo nixos-rebuild switch -p nix --flake ~/.config/nixos/#beast";
            clean = "sudo nix-collect-garbage -d";
-           ll = "ls -l";
+           ls = "lsd";
+           lsa = "lsd -a";
+           ll = "lsd -l";
            c = "clear";
            v = "nvim";
            t = "tmux";
